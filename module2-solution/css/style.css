@@ -50,7 +50,7 @@ body{
 .html #inner2 p:hover{
 	color:red;
 }
- p{
+ section{
 	width:auto;
 	text-align:right;
 	border:1px solid black;
@@ -61,6 +61,19 @@ body{
 	font-weight: bold;
 	box-shadow: 0 0 9px 5px black;
 }
+.ph{
+	background-color: #f2d4ff;
+
+}
+.pc{
+	background-color: #ff5500;
+}
+.pj{
+	background-color: #f200ff;
+
+}
+
+
 b{
 	box-shadow: 0 0 9px 5px black;
 }
