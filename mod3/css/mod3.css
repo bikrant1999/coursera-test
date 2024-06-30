@@ -1,0 +1,134 @@
+body{
+    font-size: 20px;
+    color:black !important;
+    background-color: #f0122f;
+}
+#header-nav{
+	background-color: #123456;
+	border-radius:0;
+	border:0;
+	/**/
+	/*position: fixed;*/
+	width:100%;
+}
+.container .row2{
+	padding:0%;
+}
+.row{
+	padding: 5%;
+}
+.row h1{
+	text-align: center;
+	font-weight:bold;
+}
+.row h2{
+	text-align: center;
+	font-weight:bold;
+}
+.navbar-brand{
+	padding-top:30px;
+	float:left;
+	width:70%;
+}
+.navbar-brand h1{/*Resturant name*/
+	color:white;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #0ff;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	font-size:1.5em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	font-size:50%;
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951c49;
+	text-align: center;
+}
+#nav-list a:hover{
+	background:#E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -60px;
+}
+.button{
+	margin-top:20px;
+}
+#li-button{
+	border:1px solid white;
+}
+#item1{
+	background-color: brown;
+	box-shadow: 0 0 9px 5px black;
+}
+#item2{
+	background-color: #755;
+	box-shadow: 0 0 9px 5px black;
+}
+#item3{
+	background-color: #444;
+	box-shadow: 0 0 9px 5px black;
+}
+/*#description{
+	height:1000px;
+}*/
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px){
+	#logo-img{
+		width:100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+		background-size: 100%;
+	}
+	#header-nav{
+		height: 70px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#header-nav{
+		height: 70px;
+	}
+}
+@media (max-width:767px){
+	.navbar-brand{
+		padding-top:10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+
+		padding-top: 10px;
+		font-size:5vw;
+	}
+	#li-button a{
+		font-size: 20px;
+	}
+	#collapsable-nav{
+	width:100%;
+	
+}
+@media(min-width: 10px){
+	.jumbotron{
+		background-size: 100%;
+		padding:0 0 0 0 !important;
+	}
+	.main_content{
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+	.container{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+}
